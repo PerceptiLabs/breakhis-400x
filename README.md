@@ -15,15 +15,14 @@ The data can be used to build and train an ML model that can detect breast cance
 This repo contains the following structure:
 
 - **data/**: contains the csv files and folder with images
-  - **dataset.csv**: CSV file with all data with train/test label too.
-  - **dastaset_pl.csv**: CSV file for Perceptilab use case.
+  - **dastaset.csv**: CSV file for Perceptilab use case.
   - **train/test**: folders with images stored in malign/benign folders
 
 <p align="center">
   <img src="./sample.png">
 </p>
 
-The following shows a partial example of the data stored in the dataset_pl.csv that is used as main example.
+The following shows a partial example of the data stored in the dataset.csv that is used as main example.
 
 | **images** | **labels** |
 |------------|--------------|
