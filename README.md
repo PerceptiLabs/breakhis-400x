@@ -4,20 +4,22 @@
   </a>
 </p>
 
-# Breast cancer images on histopathology slides
+# Breast Cancer Images on Histopathology Slides
 
 This dataset<sup>1</sup> contains images of breast cancer on histopathology slides.
 
-The data can be used to build and train an ML model that can detect breast cancer..
+The data can be used to build and train an ML model that can detect breast cancer.
 
 # Structure
 
 This repo contains the following structure:
 
-- **data/**: contains the csv files and folder with images
-  - **dataset.csv**: CSV file with all data with train/test label too.
-  - **dastaset_pl.csv**: CSV file for Perceptilab use case.
-  - **train/test**: folders with images stored in malign/benign folders
+- **data/**: contains the CSV files and directory with images.
+  - **test**: contains **benign** and **malignant** subdirectories of images for testing.
+  - **train**: contains **benign** and **malignant** subdirectories of images for training.
+- **dataset.csv**: CSV file with all data and the training/test labels.
+- **dastaset_pl.csv**: CSV file for use in loading the data in PerceptiLabs.
+
 
 <p align="center">
   <img src="./sample.png">
