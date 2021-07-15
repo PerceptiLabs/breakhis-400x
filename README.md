@@ -25,14 +25,14 @@ This repo contains the following structure:
   <img src="./sample.png">
 </p>
 
-The following shows a partial example of the data stored in the dataset_pl.csv that is used as main example.
+The following shows a partial example of the data stored in **dataset_pl.csv* that is used to load the data into PerceptiLabs. The labels indicate the respective condition depicted in each image.
 
 | **images** | **labels** |
 |------------|--------------|
 | data/train/benign/SOB_B_F-14-29960AB-400-015.png |	benign |
 | data/train/benign/SOB_B_PT-14-21998AB-400-039.png |	benign |
-| data/train/benign/SOB_B_A-14-29960CD-400-004.png |	benign | 
-
+| data/train/malignant/SOB_M_LC-14-13412-400-023.png |	malignant | 
+| data/train/malignant/SOB_M_PC-14-15704-400-015.png |  malignant |
 
 # Community
 
